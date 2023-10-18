@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav-bar{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin: 20px;
+}
+.logo img{
+    width: 100px;
+    margin-left: 50px;
+}
+.search-bar input{
+    width: 650px;
+    height: 40px;
+    padding: 20px;
+    margin-left: 250px;
+    border-radius: 50px;
+    border:1px solid silver;
+    font: size 15px;
+    text-decoration: none;
+}
+.video{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.caption p{
+    position: absolute;
+    top: 620px;
+    left: 100px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.profile {
+    display: flex;
+    height: 100vh;
+    padding-top: 10px;
+}
+
+.profile img{
+    margin-left: 100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.profile h5{
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.profile span {
+    font-size: 14px;
+    font-weight: 400;
+}
+.profile button {
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    margin-left: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+}
+.profile button a {
+     text-decoration: none;
+     color: white;
+}
